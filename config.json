@@ -1,0 +1,22 @@
+{
+  "monitoring": {
+    "ignoreWindowsSigned": true,
+    "ignoreMicrosoft": true,
+    "blockUnsigned": false,
+    "verboseMode": false
+  },
+  "alerts": {
+    "playSound": true,
+    "showNotifications": true
+  },
+  "ui": {
+    "autoScroll": true,
+    "maxEvents": 1000
+  },
+  "logging": {
+    "enabled": true,
+    "logFile": "driver_monitor.log",
+    "maxLogSize": 10485760
+  },
+  "whitelist": []
+}
